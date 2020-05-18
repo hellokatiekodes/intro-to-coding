@@ -1,0 +1,39 @@
+
+body {
+font-family: Helvetica, Arial, sans-serif;line-height: 1.5;
+<!-- everything in body will change according to what you put in:-->
+
+}
+
+img {
+  width:100%;
+  transition: 2s;
+}
+h1 {
+color: hotpink;
+
+}
+main {
+max-width: 800px;
+
+margin:auto; /=center the content =/
+}
+
+footer {
+background-color: black;
+color: white;
+text-align: center;
+padding:20px
+}
+
+.special {
+  color: darkgoldenrod;
+}
+
+@media (max-width: 600px)
+
+img:hover {
+  border: 10px solid red;
+  transform: rotate(720deg) scale(3);
+  filter: hue-rotate(360deg);
+}
